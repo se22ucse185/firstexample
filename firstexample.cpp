@@ -36,3 +36,9 @@ class Time {
            // the code 
        } 
 }; 
+// Added a new function to calculate the factorial
+int factorial(int n) {
+    if (n <= 1) return 1;
+    return n * factorial(n - 1);
+}
+
