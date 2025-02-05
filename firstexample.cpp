@@ -41,4 +41,11 @@ int factorial(int n) {
     if (n <= 1) return 1;
     return n * factorial(n - 1);
 }
+// Corrected inconsistent indentation and braces formatting
+if (condition) {
+    // Do something
+} else {
+    // Do something else
+}
+
 
